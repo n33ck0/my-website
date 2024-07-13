@@ -10,8 +10,8 @@ July 2024
 </h4>
 
  <h5><center>
- <strong> Assignment #7:  "Basic Webpage"<br>
-Due: July 15, 2024<strong>
+ <strong> Assignment #7:  "Basic Webpage"</strong>strong<br>
+<strong>Due: July 15, 2024</strong>
 </h5>
 
 <body>
