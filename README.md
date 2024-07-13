@@ -1,44 +1,55 @@
 # my-website
-Queens College of CUNY
-Department of Computer Science
-Internet and Web Technologies 
-(CSCI 355/655)
+<!DOCTYPE html>
+<html>
+<h4><center>
+Queens College of CUNY<br>
+Department of Computer Science<br>
+Internet and Web Technologies
+(CSCI 355/655)<br>
 July 2024
+</h4>
 
-Assignment #7: 
-"Basic Webpage"
-Due: July 15, 2024
-Overview:
+ <h5><center>
+ <strong> Assignment #7:  "Basic Webpage"<br>
+Due: July 15, 2024<strong>
+</h5>
+
+<body>
+<ins><strong>Overview:<strong></ins>
 
 In this assignment, you will combine and build on previously attained HTML, CSS, and JS skills to create a simple webpage with a navigation bar (menu). The page may also serve to support additional functionality developed in future assignments. The page should be hosted on QC Computer Science Department's server.
 
 You may work with a coding partner, but you need to have your own copy of the code hosted on your server account. Your About pages (Developer Info and Contact Me) must be customized to you.
 
-Submission:
+<ins><strong>Submission:<strong></ins>
 
 In the Google form in the comments section, just provide the URL of your site on the QC CS server. I will click on the link and evaluate the deployed code.
 
-Tasks:
+<ins><strong>Tasks:<strong></ins>
 
 [1] Create a basic webpage with the following main menu and submenu items:
 
 
-Course - with submenu items relevant to our course
-link to Kurose and Ross author/book page
-link to http://w3schools.com
-link to https://www.geeksforgeeks.org/web-development/ 
-See https://www.w3schools.com/howto/default.asp
-Browser - with submenu items respectively communicating the following attributes
-Navigator - appName, product, appVersion, userAgent, platform, language
-Window - innerHeight, innerWidth
-Screen - width, height, availWidth, availHeight, colorDepth, pixelDepth
-Location - href, hostname, pathname, protocol
-Geolocation - Latitude, Longitude
-See https://www.w3schools.com/js/js_window.asp 
-About – with submenu items to 
-Description of the developer of the page (i.e. you, the student) with optional photo
-Contact Me email form - see to contact you by email. 
-See https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
+<strong>Course</strong> - with submenu items relevant to our course
+<ul style="list-style-type:circle">
+	<li>link to <a href="https://gaia.cs.umass.edu/kurose_ross/index.php">Kurose and Ross author/book page</a></li>
+	<li>link to <a href="https://www.w3schools.com/howto/default.asp">http://w3schools.com</a></li>
+	<li>link to <a href="https://www.geeksforgeeks.org/web-development/"> https://www.geeksforgeeks.org/web-development/</a></li> 
+
+<strong>Browser</strong> - with submenu items respectively communicating the following attributes
+<ul style="list-style-type:circle;">
+<li>Navigator - appName, product, appVersion, userAgent, platform, language</li>
+<li>Window - innerHeight, innerWidth</li>
+<li>Screen - width, height, availWidth, availHeight, colorDepth, pixelDepth</li>
+<li>Location - href, hostname, pathname, protocol</li>
+<li>Geolocation - Latitude, Longitude</li>See
+<a href="https://www.w3schools.com/js/js_window.asp">https://www.w3schools.com/js/js_window.asp </a>
+
+<strong>About</strong> – with submenu items to 
+<ul style="list-style-type:circle;">
+<li>Description of the developer of the page (i.e. you, the student) with optional photo</li>
+<li>Contact Me email form - see to contact you by email. </li>
+See<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail"> https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail</a>
 
 [2] Use a CSS file to style your site
 
@@ -47,6 +58,10 @@ See https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_mail
 
 https://venus.cs.qc.cuny.edu/~xiuyi/linux_login.html 
 https://venus.cs.qc.cuny.edu/~xiuyi/webpage_setup.html 
+</body>
+</html>
+
+
 
 
 
