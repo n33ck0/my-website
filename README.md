@@ -15,7 +15,7 @@
 
 	<h5>
 		<center>
-			<strong> Assignment #7: "Basic Webpage"</strong>strong<br>
+			<strong> Assignment #7: "Basic Webpage"</strong><br>
 			<strong>Due: July 15, 2024</strong>
 	</h5>
 
