@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--CSCI-355 Internet Web Technologies-->
+<!--Summer 2024-->
+<!--Isaias Hernandez-->
+<!--Assignment07 - Basic Webpage-->
+<!--Basic Webpage-Index-->
+
+<!-- This file contains the Index HTML-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Webpage: "Assignment07"</title>
+  <link rel="stylesheet" href="assignment07Styles.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+<div id="content">
+  <img src="isItWorkingNow.jpg" alt="Centered Image" class="centered-image" >
+</div>
+<br>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-browser/0.1.0/jquery.browser.min.js"></script>
+<script src="Assignment07.js"></script>
+<script>
+  $(function () {
+    $("#navbar-placeholder").load("navBar.html");
+  });
+</script>
+</body>
+</html>

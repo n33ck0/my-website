@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--CSCI-355 Internet Web Technologies-->
+<!--Summer 2024-->
+<!--Isaias Hernandez-->
+<!--Assignment07 - Basic Webpage-->
+<!--Basic Webpage-devInfo-->
+
+<!-- This file contains the devInfo HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Developer Information</title>
+    <link rel="stylesheet" href="assignment07Styles.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+<div id="content">
+    <img src="hereBeDev.png" width = "800" height="600" alt="Here be the Dev">
+    <h2>Ralphy Hernandez</h2>
+    <h3>Aspiring Software Engineer</h3>
+    <p>Computer Science student @ <a href="https://www.qc.cuny.edu/" class="invisibleLink" target="_blank">CUNY's Queens College</a> with a passion for building user-friendly and efficient applications.
+        Adept in various programming languages like Java, and MSSQL; currently delving into JS and CSS, and
+        eager to contribute to new and innovative projects. <a href="latestResume2024.pdf" class="invisibleLink" target="_blank"> Resume Here (PDF)</a></p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("#navbar-placeholder").load("navBar.html", function() {
+        });
+    });
+</script>
+</body>
+</html>

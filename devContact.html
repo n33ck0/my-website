@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--CSCI-355 Internet Web Technologies-->
+<!--Summer 2024-->
+<!--Isaias Hernandez-->
+<!--Assignment07 - Basic Webpage-->
+<!--Basic Webpage-devContact-->
+
+<!-- This file contains the devContact HTML-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Card - [Ralphy Hernandez]</title>
+    <link rel="stylesheet" href="assignment07Styles.css">
+</head>
+<body>
+<div id="navbar-placeholder"></div>
+<div id="content">
+    <div class="contact-card">
+        <!--<img src="profile-picture.jpg" alt="[Ralphy Hernandez] - Profile Picture" class="profile-picture"-->
+        <div class="info-container">
+            <h2>[Ralphy Hernandez]</h2>
+            <h3>[Aspiring Software Engineer]</h3>
+            <ul class="contact-info">
+                <li><a href="mailto:[isaias.hernandez44@qmail.cuny.edu]"><i class="fas fa-envelope"></i> [isaias.hernandez44@qmail.cuny.edu]</a></li>
+                <li><a href="mailto:[ralphy.dev@proton.me]"><i class="fas fa-envelope"></i> [ralphy.dev@proton.me]</a></li>
+                <li><a href="tel:[917.890.7808]"><i class="fas fa-phone"></i> [917.890.7808]</a></li>
+                <li><a href="[https://github.com/n33ck0/my-website]"><i class="fas fa-globe"></i> [my-website]</a></li>
+            </ul>
+            <ul class="social-media">
+                <li><a href="[https://www.linkedin.com/in/isaias-hernandez-b61a562/]"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="[https://github.com/n33ck0]"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $("#navbar-placeholder").load("navBar.html", function() {
+
+        });
+    });
+</script>
+</body>
+</html>

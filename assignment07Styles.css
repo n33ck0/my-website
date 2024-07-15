@@ -1,0 +1,87 @@
+/* --CSCI-355 Internet Web Technologies-->
+<! --Summer 2024-->
+<! --Isaias Hernandez-->
+<! --Assignment07 - Basic Webpage*/
+
+
+/* This navbar has been modified from https://leewarrick.com/blog/css-only-menus/
+ */
+body {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: "Arial", "Verdana", sans-serif;
+  font-size: 20px;
+}
+
+/*Navbar Container*/
+.dropdown__header * {
+  padding: 0;
+  margin: 0;
+}
+.dropdown__header {
+  display: flex;
+  align-items: center;
+  background: lightblue;
+}
+
+.dropdown__header strong {
+  margin-left: 5px;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+.dropdown__header .dropdown__categories,
+.dropdown__header .dropdown__menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown__header li {
+  padding: 10px;
+  position: relative;
+}
+
+.dropdown__header li:hover {
+  background: lightcoral;
+}
+
+.dropdown__header .dropdown__category .dropdown__menu {
+  display: none;
+  position: absolute;
+  background: lightblue;
+  width: 200px;
+  top: 100%;
+  right: 0;
+}
+
+.dropdown__header .dropdown__category .dropdown__menu {
+  display: none;
+}
+
+.dropdown__header .dropdown__category:hover .dropdown__menu {
+  display: block;
+}
+
+.invisibleLink{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.invisibleLink:hover{
+  color: white;
+}
+.centered-image{
+  display: block;
+  margin: 100px auto;
+  max-width: 500px;
+}
